@@ -11,9 +11,16 @@ Custom-Paks für Fortnite 8.51 (Season 8). Jede `.pak` gehört mit ihrer `.sig` 
 | `pakchunk9999` | Skin-Ersatz (Dexter, Skelett) |
 | `pakchunkMWH` | Move While Healing |
 
-## pakchunk9998 (1 GB, in Teilen)
+## pakchunk9998 (1 GB)
 
-GitHub nimmt höchstens 25 MB pro Datei an. Darum ist diese Pak in 43 Teile zerlegt:
+Die ganze Pak in einer Datei gibt es im Release:
+https://github.com/Louis988-jpg/Vault/releases/download/vault-series/pakchunk9998-WindowsClient_P.pak
+
+Die passende `.sig` liegt hier im Repo.
+
+### Ohne Release: in Teilen
+
+GitHub nimmt im Repo höchstens 25 MB pro Datei an. Darum liegt die Pak hier zusätzlich in 43 Teilen:
 `pakchunk9998-Teile/`.
 
 1. Den ganzen Ordner `pakchunk9998-Teile` herunterladen, mit allen 43 Teilen.
