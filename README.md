@@ -5,11 +5,22 @@ Custom-Paks für Fortnite 8.51 (Season 8). Jede `.pak` gehört mit ihrer `.sig` 
 
 | Pak | Inhalt |
 |---|---|
+| `pakchunk9994` | Vault-Tab im Einstellungsmenü (englisch) und doppelt so starke Farbenblind-Korrektur |
 | `pakchunk9995` | Mobile Builds |
 | `pakchunk9996` | Box Fight |
 | `pakchunk9998` | Vault Series: 21 Skins, 4 Spitzhacken, 1 Gleiter |
 | `pakchunk9999` | Skin-Ersatz (Dexter, Skelett) |
 | `pakchunkMWH` | Move While Healing |
+
+## Vault-Tab (pakchunk9994 + VaultClient.dll)
+
+`pakchunk9994` fügt im Einstellungsmenü hinter "Game" den Tab **Vault** hinzu: Controller-Sensitivity (horizontal,
+vertikal, ADS, Scope, Bauen, Editieren), Stick-Totzonen und Farbenblind-Modus. Die Farbenblind-Stärke ist doppelt so
+stark wie normal (5 = altes Maximum, 10 = doppelt).
+
+Look Input Curve (Linear/Exponential), Look Sensitivity, Turning Boost und FOV bis 120 erscheinen nur, wenn der
+Launcher `VaultClient.dll` in `FortniteClient-Win64-Shipping.exe` lädt (per LoadLibrary, Zeitpunkt egal). Im Server
+(`-nullrhi`) tut die DLL nichts. Log: `%TEMP%\VaultClient.log`.
 
 ## pakchunk9998 (1.15 GB, in Teilen)
 
