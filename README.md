@@ -8,7 +8,7 @@ Custom-Paks für Fortnite 8.51 (Season 8). Jede `.pak` gehört mit ihrer `.sig` 
 | `pakchunk9994` | Vault-Tab im Einstellungsmenü (englisch) und doppelt so starke Farbenblind-Korrektur |
 | `pakchunk9995` | Mobile Builds |
 | `pakchunk9996` | Box Fight |
-| `pakchunk9998` | Vault Series: 43 Skins, 6 Spitzhacken, 1 Gleiter |
+| `pakchunk9998` | Vault Series: 66 Skins, 6 Spitzhacken, 1 Gleiter |
 | `pakchunk9999` | Skin-Ersatz (Dexter, Skelett) |
 | `pakchunkMWH` | Move While Healing |
 
@@ -22,12 +22,12 @@ Look Input Curve (Linear/Exponential), Look Sensitivity, Turning Boost und FOV b
 Launcher `VaultClient.dll` in `FortniteClient-Win64-Shipping.exe` lädt (per LoadLibrary, Zeitpunkt egal). Im Server
 (`-nullrhi`) tut die DLL nichts. Log: `%TEMP%\VaultClient.log`.
 
-## pakchunk9998 (2.35 GB, in Teilen)
+## pakchunk9998 (3.4 GB, in Teilen)
 
-GitHub nimmt höchstens 25 MB pro Datei an. Darum ist diese Pak in 99 Teile zerlegt:
+GitHub nimmt höchstens 25 MB pro Datei an. Darum ist diese Pak in 148 Teile zerlegt:
 `pakchunk9998-Teile/`.
 
-1. Den ganzen Ordner `pakchunk9998-Teile` herunterladen, mit allen 99 Teilen.
+1. Den ganzen Ordner `pakchunk9998-Teile` herunterladen, mit allen 148 Teilen.
 2. `zusammenfuegen.bat` doppelklicken. Das Skript setzt die Teile zusammen und prüft die SHA1.
 3. Wenn FERTIG kommt: `pakchunk9998-WindowsClient_P.pak` aus dem Ordner zusammen mit
    `pakchunk9998-WindowsClient_P.sig` nach `FortniteGame\Content\Paks` kopieren.
