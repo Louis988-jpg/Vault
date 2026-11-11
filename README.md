@@ -5,14 +5,16 @@ Custom-Paks für Fortnite 8.51 (Season 8). Jede `.pak` gehört mit ihrer `.sig` 
 
 | Pak | Inhalt |
 |---|---|
-| `pakchunk9992` | Halloween-Stimmung: Skull-Trooper-Ladebildschirme mit VAULTMARES-Logo, Halloween-Bus, Fortnitemares-Musik, Besen statt Gleiter im Menue (nach Halloween entfernen) |
-| `pakchunk9993` | Saisonale Lobby: Halloween (1.10.-15.11.) und Weihnachten (1.12.-7.1.) nach Datum vom Backend, mit fliegenden Vault-Logos |
+| `pakchunk9993` | Saisonale Lobby: Halloween (Oktober) und Weihnachten (1.12.-7.1.) nach Datum vom Backend, mit fliegenden Vault-Logos |
 | `pakchunk9994` | Vault-Tab im Einstellungsmenü (englisch) und doppelt so starke Farbenblind-Korrektur |
 | `pakchunk9995` | Mobile Builds |
 | `pakchunk9996` | Box Fight |
 | `pakchunk9998` | Vault Series: 71 Skins, 7 Spitzhacken, 1 Gleiter |
 | `pakchunk9999` | Skin-Ersatz (Dexter, Skelett) |
 | `pakchunkMWH` | Move While Healing |
+
+`pakchunk9992` (VaultMares / Halloween-Stimmung) gibt es nicht mehr. Wer sie noch hat: `pakchunk9992-WindowsClient_P.pak`
+und `.sig` aus `FortniteGame\Content\Paks` löschen.
 
 ## Vault-Tab (pakchunk9994 + VaultClient.dll)
 
